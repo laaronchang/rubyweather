@@ -15,9 +15,6 @@ lon = geo_data["lon"]
 # PRINTS OUT CITY AND STATE
 puts "Location: " "#{geo_data['city']}, #{geo_data['region']}", "#{lat}, #{lon}"
 puts "\n"
-# Clean up below
-#puts (lat), (lon)
-#puts geo_data["city"],geo_data["region"]
 
 
 # PING WEATHER.GOV WITH CURRENT LOCATION
